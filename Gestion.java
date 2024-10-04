@@ -38,7 +38,12 @@ public class Gestion {
         Scanner scanner = new Scanner(System.in);
         
         gestion.agregarTarea("Comprar leche");
-      
+        gestion.agregarTarea("Estudiar Java");
+        gestion.mostrarTareas();
+        
+        gestion.eliminarTarea("Comprar lec");
+        gestion.mostrarTareas();
+
         scanner.close();
     }
 }
