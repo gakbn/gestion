@@ -3,10 +3,14 @@ import java.util.List;
 import java.util.Scanner;
 
 public class Gestion {
-    private List<String> tasks;
+    private List<String> tareas;
 
-    public TaskManager() {
-        tasks = new ArrayList<>();
+    public Gestion() {
+        tareas = new ArrayList<>();
     }
 
+    public void agregarTarea(String tarea) {
+        tareas.add(tarea);
+        System.out.println("Tarea '" + tarea + "' añadida.");
+    }
 }
