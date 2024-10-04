@@ -41,7 +41,7 @@ public class Gestion {
         gestion.agregarTarea("Estudiar Java");
         gestion.mostrarTareas();
         
-        gestion.eliminarTarea("Comprar lec");
+        gestion.eliminarTarea("Comprar leche");
         gestion.mostrarTareas();
 
         scanner.close();
