@@ -13,4 +13,12 @@ public class Gestion {
         tareas.add(tarea);
         System.out.println("Tarea '" + tarea + "' añadida.");
     }
+
+    public void eliminarTarea(String tarea) {
+        if (tareas.remove(tarea)) {
+            System.out.println("Tarea '" + tarea + "' eliminada.");
+        } else {
+            System.out.println("Tarea '" + tarea + "' no encontrada.");
+        }
+    }
 }
