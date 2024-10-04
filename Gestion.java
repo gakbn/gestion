@@ -21,4 +21,15 @@ public class Gestion {
             System.out.println("Tarea '" + tarea + "' no encontrada.");
         }
     }
+
+    public void mostrarTareas() {
+        if (tareas.isEmpty()) {
+            System.out.println("No hay tareas pendientes.");
+        } else {
+            System.out.println("Tareas pendientes:");
+            for (String tarea : tareas) {
+                System.out.println("- " + tarea);
+            }
+        }
+    }
 }
