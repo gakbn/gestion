@@ -32,4 +32,13 @@ public class Gestion {
             }
         }
     }
+
+    public static void main(String[] args) {
+        Gestion gestion = new Gestion();
+        Scanner scanner = new Scanner(System.in);
+        
+        gestion.agregarTarea("Comprar leche");
+      
+        scanner.close();
+    }
 }
